@@ -24,6 +24,7 @@
   <div class="notification content section">
     <h2>Other Lifts</h2>
 
+    <!-- This each loop includes the index of the item as something that can be used as well (for deleting) -->
     {#each bests.other as lift, index}
       <div class="box">
         <!-- Allows the user to edit both the label of the lift and the weight -->
