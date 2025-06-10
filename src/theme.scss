@@ -1,0 +1,19 @@
+// Colour variables - change these to affect classes like "is-primary"
+$primary-color: #b57ba6;
+$link-color: #19297C;
+$info-color: #79A9D1;
+$success-color: #68A691;
+$warning-color: #FE5D26;
+$danger-color: #FF220C ;
+$background-color: #FCECC9;
+// $light-color: $light;
+// $dark-color: $dark;
+$text-color: #252323;
+
+// Font variables - change these to affect the text
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+$primary-font: '"Roboto", sans-serif';
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+$title-font: '"Pacifico", cursive';

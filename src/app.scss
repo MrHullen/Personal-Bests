@@ -1,0 +1,19 @@
+// This file applies your variables to the Bulma framework. You don't need to change this.
+
+@use 'theme' as *;
+
+@use 'bulma/sass' with (
+  $primary: $primary-color,
+  $link: $link-color,
+  $info: $info-color,
+  $success: $success-color,
+  $warning: $warning-color,
+  $danger: $danger-color,
+  $background: $background-color,
+  // $light: $light-color,
+  // $dark: $dark-color,
+
+  $text: $text-color,
+  $family-primary: $primary-font,
+  $title-family: $title-font,
+);
